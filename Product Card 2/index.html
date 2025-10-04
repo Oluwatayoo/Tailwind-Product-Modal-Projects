@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Product Card</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div
+      class="flex items-center justify-center min-h-screen bg-[#E9F0FF] py-6 font-['Inter']"
+    >
+      <!-- Card Container -->
+      <div
+        class="flex flex-col p-5 rounded-3xl border border-[#D8D9E0] bg-white"
+      >
+        <p class="font-medium text-xs text-[#81859C] self-end mr-1">
+          id: 12345689
+        </p>
+
+        <div class="relative px-10 pt-4">
+          <img
+            src="images/measure.png"
+            alt="Measure scale"
+            class="absolute right-4 top-12"
+          />
+          <img
+            src="images/Love.png"
+            alt="Love"
+            class="absolute right-4 top-24"
+          />
+          <img src="images/Product image.png" alt="Iphone 15 pro" class="" />
+        </div>
+        <h1 class="font-medium text-[#363842] mt-5 ml-2">
+          Apple iPhone 15 Pro
+        </h1>
+        <div class="flex gap-1 ml-2 mt-2">
+          <div><img src="images/star.png" alt="Star" /></div>
+          <div><img src="images/star.png" alt="Star" /></div>
+          <div><img src="images/star.png" alt="Star" /></div>
+          <div><img src="images/star.png" alt="Star" /></div>
+          <div><img src="images/star.png" alt="Star" class="mr-1" /></div>
+          <div><img src="images/comment.png" alt="Comment" /></div>
+          <p class="font-medium text-xs text-[#81859C]">97</p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex flex-col ml-2 mt-12 gap-1">
+            <div class="flex gap-2">
+              <p class="font-medium text-base text-[#81859C] line-through">
+                $999.00
+              </p>
+              <div class="flex items-center">
+                <p class="font-medium text-xs bg-[#E9F0FF] px-1 text-[#102B6B]">
+                  -10%
+                </p>
+              </div>
+            </div>
+            <p class="font-semibold text-[27px] text-[#363842]">$899.00</p>
+          </div>
+          <div class="self-end mr-2 mb-3">
+            <img src="images/Cart.png" alt="Cart" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

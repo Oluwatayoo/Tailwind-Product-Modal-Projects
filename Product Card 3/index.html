@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Card</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div
+      class="flex items-center justify-center min-h-screen bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#EDEDE9] to-[#9C7958] font-['Poppins']"
+    >
+      <!-- Card Container -->
+      <div class="flex flex-col shadow-2xl shadow-[#9C7958] rounded-3xl my-10">
+        <div class="w-full">
+          <img
+            src="images/Product-image.png"
+            alt="A Happy FAther's Day image"
+            class="w-full"
+          />
+        </div>
+        <div class="flex flex-col space-y-3 px-6 py-5 bg-white rounded-b-3xl">
+          <h1 class="text-xl text-[#66625E] font-semibold">
+            Volcanic Chocolate
+          </h1>
+          <div class="flex gap-2">
+            <p
+              class="uppercase bg-[#F3EAE0] rounded-full inline-block px-2 py-0.5 h-[20px] text-xs text-[#66625E]"
+            >
+              Chocolate
+            </p>
+            <p
+              class="uppercase bg-[#F3EAE0] rounded-full inline-block px-2 py-0.5 h-[20px] text-xs text-[#66625E]"
+            >
+              Vanila
+            </p>
+            <p
+              class="uppercase bg-[#F3EAE0] rounded-full inline-block px-2 py-0.5 h-[20px] text-xs text-[#66625E]"
+            >
+              Organic
+            </p>
+          </div>
+          <p class="text-sm text-[#66625E] w-[270px]">
+            Bitter chocolate with sweet vanilla, an extremely unique spicy taste
+            hidden in the choux cake.
+          </p>
+          <div class="flex gap-2 items-center pb-2.5">
+            <p class="text-xs text-[#66625E]">Cake included</p>
+            <p
+              class="text-xs text-[#66625E] rounded-full px-2 py-px border border-[#040504]"
+            >
+              Chocoates
+            </p>
+            <p
+              class="text-xs text-[#66625E] rounded-full px-2 py-px border border-[#BF6433]"
+            >
+              Beans
+            </p>
+            <p
+              class="text-xs text-[#66625E] rounded-full px-2 py-px border border-[#E6BB8D]"
+            >
+              Butter
+            </p>
+          </div>
+          <div class="flex justify-end items-center h-[28px]">
+            <div class="border border-[#66625E] rounded h-[26px]">
+              <button
+                class="px-1.5 border-r border-[#66625E] bg-[#F3EAE0] text-[#66625E] text-sm font-semibold h-full rounded-l"
+              >
+                -
+              </button>
+              <span class="px-1.5 text-[#66625E] text-sm font-semibold h-full"
+                >1</span
+              >
+              <button
+                class="px-1.5 border-l border-[#66625E] bg-[#F3EAE0] text-[#66625E] text-sm font-semibold h-full rounded-r"
+              >
+                +
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-between pb-4">
+            <div class="flex flex-col">
+              <p class="text-xl font-semibold text-[#DF0000]">820.000 vnd</p>
+              <p class="text-xs text-[#B0A396]">50.000 vnd delivery</p>
+            </div>
+            <div class="flex justify-center self-center">
+              <button
+                class="text-white text-sm bg-gradient-to-l from-[#DF0000] to-[#AD0606] font-semibold px-5 py-2 rounded-lg"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
