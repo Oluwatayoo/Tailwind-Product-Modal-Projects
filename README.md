@@ -1,6 +1,6 @@
 # Tailwind Product Modals
 
-This repository contains **4 different pricing grid projects** that i developed while practicing **Tailwind CSS**
+This repository contains **6 different pricing grid projects** that i developed while practicing **Tailwind CSS**
 
 The projects were inspired by a tutorial from **Brad Traversy**, and i built mine from scratch using **Figma designs** to improve my design-to-code workflow and Tailwind skills.
 
@@ -12,6 +12,8 @@ The projects were inspired by a tutorial from **Brad Traversy**, and i built min
 - [Product Modal 2](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%202)
 - [Product Modal 3](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%203)
 - [Product Modal 4](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%204)
+- [Product Modal 5](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%205)
+- [Product Modal 6](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%206)
 
 ## ✨ Features
 
