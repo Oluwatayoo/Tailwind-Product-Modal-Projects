@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Card</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-[#f5f5f5]">
+      <!-- Card Container -->
+      <div
+        class="flex flex-col lg:flex-row my-12 space-y-10 lg:space-y-0 lg:space-x-10"
+      >
+        <!-- Card 1 -->
+        <div
+          class="p-6 bg-white flex flex-col font-['Inter'] box-border w-[380px]"
+        >
+          <div class="flex justify-between items-center w-full my-5">
+            <div>
+              <img src="assets/First arrow.png" alt="arrow" />
+            </div>
+            <div class="flex gap-6">
+              <div><img src="assets/like.png" alt="like" /></div>
+              <div class="flex items-center">
+                <img src="assets/share.png" alt="share" />
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-3 flex justify-center">
+            <img
+              src="assets/product.png"
+              alt="product image"
+              class="w-80 flex justify-center"
+            />
+          </div>
+
+          <div class="flex justify-between items-center w-full my-2">
+            <div>
+              <img src="assets/doddles.png" alt="doodles" />
+            </div>
+            <div class="flex gap-8">
+              <div>
+                <img src="assets/view 1.png" alt="Product image view 1" />
+              </div>
+              <div>
+                <img src="assets/view 2.png" alt="Product image view 2" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex justify-center bg-[#eeeeee] rounded px-3 py-0.5 mt-2 self-start"
+          >
+            <p
+              class="font-semibold text-[10px] text-[#1b1b1b] font-['Poppins']"
+            >
+              Gaming
+            </p>
+          </div>
+
+          <div class="flex justify-between mt-1 items-center">
+            <h1 class="text-black font-semibold text-2xl">
+              Controller wireless
+            </h1>
+
+            <div class="flex gap-0.5 mt-[3px]">
+              <div><img src="assets/Star.png" alt="star" /></div>
+              <div><img src="assets/Star.png" alt="star" /></div>
+              <div><img src="assets/Star.png" alt="star" /></div>
+              <div><img src="assets/Star.png" alt="star" /></div>
+              <div><img src="assets/Half star.png" alt="Half star" /></div>
+            </div>
+          </div>
+
+          <p class="text-black font-semibold text-[32px] mt-2">$50</p>
+
+          <p class="text-black font-medium text-sm my-2.5">Colour</p>
+
+          <div class="flex gap-4 mb-3">
+            <div
+              class="bg-[#F8F9FB] rounded-full size-6 border-4 border-black"
+            ></div>
+            <div class="bg-black rounded-full size-6"></div>
+            <div class="bg-[#1A55C7] rounded-full size-6"></div>
+          </div>
+
+          <p class="font-medium text-sm text-black my-2">Description</p>
+
+          <p class="max-w-xs text-xs text-[#505050] mb-10">
+            The Nike Air Zoom Pegasus is a versatile running shoe that delivers
+            a smooth, responsive ride for all levels of runners. It features a
+            full-length Zoom Air unit in the heel for cushioning and energy
+            return, and a lightweight React foam midsole for a soft, springy
+            feel. The breathable mesh upper provides a comfortable, secure fit,
+            and the outsole provides traction on a variety of surfaces.
+          </p>
+
+          <div class="flex justify-center gap-5">
+            <button
+              class="flex justify-center rounded-lg gap-3 items-center border border-black px-5 py-2"
+            >
+              <div><img src="assets/Add.png" alt="" /></div>
+
+              <p class="text-black font-medium text-base">Add to Cart</p>
+            </button>
+            <button class="bg-black rounded-lg px-11 py-2">
+              <p class="text-white font-medium text-base">Buy Now</p>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="p-6 bg-white flex flex-col font-['Poppins'] box-border w-[380px]"
+        >
+          <div class="flex justify-between items-center w-full mt-5 mb-3">
+            <div><img src="assets 2/arrow.png" alt="arrow" /></div>
+            <div class="flex gap-6">
+              <div><img src="assets 2/heart.png" alt="heart" /></div>
+              <div><img src="assets 2/buy.png" alt="buy" /></div>
+            </div>
+          </div>
+
+          <div class="mt-3 flex justify-center">
+            <img
+              src="assets 2/Product Image.png"
+              alt="Product image"
+              class="w-80 flex justify-center"
+            />
+          </div>
+
+          <div class="flex w-full justify-center">
+            <img src="assets 2/Sliding Indicator.png" alt="Sliding Indicator" />
+          </div>
+
+          <p class="font-medium text-2xl text-black mt-9">Men Nike</p>
+
+          <div class="flex justify-between">
+            <p class="font-medium text-2xl text-black">Air Zoom Pegasus</p>
+            <p class="font-semibold text-2xl text-black">$725</p>
+          </div>
+
+          <div class="flex gap-2 items-center">
+            <p class="font-medium text-sm text-black">4.3</p>
+            <div class="flex gap-1">
+              <div><img src="assets 2/star.png" alt="star" /></div>
+              <div><img src="assets 2/star.png" alt="star" /></div>
+              <div><img src="assets 2/star.png" alt="star" /></div>
+              <div><img src="assets 2/star.png" alt="star" /></div>
+              <div><img src="assets 2/half star.png" alt="Half star" /></div>
+            </div>
+            <p class="font-medium text-black text-xs">|</p>
+            <p class="font-medium text-[#737373] text-sm">56.7k ratings</p>
+          </div>
+
+          <p class="font-medium text-black text-sm mt-5 mb-1.5">Colour</p>
+
+          <div class="flex gap-4">
+            <div
+              class="flex items-center justify-center size-9 rounded-full bg-[#caff53] border-2 border-black"
+            >
+              <div class="size-[22px] bg-white rounded-full"></div>
+            </div>
+            <div class="size-9 rounded-full bg-[#F3664D]"></div>
+            <div class="size-9 bg-[#98716C] rounded-full"></div>
+          </div>
+
+          <p class="font-medium text-sm text-black mt-5 mb-1.5">Size</p>
+
+          <div class="flex gap-4 items-center">
+            <div
+              class="size-[32px] border-2 border-black bg-white rounded-full flex items-center justify-center"
+            >
+              <p class="font-medium text-base text-black">S</p>
+            </div>
+            <div
+              class="size-[32px] border-[3px] border-black bg-[#c3c3c3] rounded-full flex items-center justify-center"
+            >
+              <p class="font-medium text-base text-black">M</p>
+            </div>
+            <div
+              class="size-[32px] border-2 border-black bg-white rounded-full flex items-center justify-center"
+            >
+              <p class="font-medium text-base text-black">L</p>
+            </div>
+            <div><img src="assets 2/side arrow.png" alt="side arrow" /></div>
+          </div>
+
+          <p class="font-medium text-black text-sm mt-5 mb-2">Description</p>
+
+          <p class="max-w-xs text-xs text-[#505050] mb-10">
+            The Nike Air Zoom Pegasus is a versatile running shoe that delivers
+            a smooth, responsive ride for all levels of runners. It features a
+            full-length Zoom Air unit in the heel for cushioning and energy
+            return, and a lightweight React foam midsole for a soft, springy
+            feel. The breathable mesh upper provides a comfortable, secure fit,
+            and the outsole provides traction on a variety of surfaces.
+          </p>
+
+          <div class="flex justify-center gap-5">
+            <button
+              class="flex justify-center items-center rounded-lg gap-3 items-center border border-black px-4 py-2"
+            >
+              <div><img src="assets/Add.png" alt="" /></div>
+
+              <p class="text-black font-medium text-base">Add to Cart</p>
+            </button>
+            <button class="bg-black rounded-lg px-11 py-2">
+              <p class="text-white font-medium text-base">Buy Now</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
