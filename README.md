@@ -18,7 +18,7 @@ The projects were inspired by a tutorial from **Brad Traversy**, and i built min
 ## ✨ Features
 
 - Clean and minimal UI built with **Tailwind CSS**
-- Multiple design variations (4 unique cards)
+- Multiple design variations (6 unique cards)
 - Rensponsive layouts for different screen sizes
 - Practice-focused: improving CSS utility-first workflow
 - Inspired by real-world UI/UX designs from Figma
