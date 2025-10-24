@@ -15,6 +15,8 @@ The projects were inspired by a tutorial from **Brad Traversy**, and i built min
 - [Product Modal 5](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%205)
 - [Product Modal 6](https://oluwatayoo.github.io/Tailwind-Product-Modal-Projects/Product%20Card%206)
 
+---
+
 ## ✨ Features
 
 - Clean and minimal UI built with **Tailwind CSS**
